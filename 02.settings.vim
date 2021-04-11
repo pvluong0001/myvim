@@ -17,3 +17,7 @@ set shiftwidth=4
 set relativenumber
 
 set noswapfile
+
+" for ruby
+autocmd FileType ruby setlocal expandtab shiftwidth=2 tabstop=2
+autocmd FileType eruby setlocal expandtab shiftwidth=2 tabstop=2
