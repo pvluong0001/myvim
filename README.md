@@ -2,5 +2,5 @@
 
 ### search follow git. Add to .bash_profile
 ```shell
-export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+rg --files --follow --no-ignore-vcs --hidden -g "!{node_modules/*,.git/*}"
 ```
