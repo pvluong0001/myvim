@@ -21,7 +21,7 @@ function! StartUp()
 endfunction
 autocmd VimEnter * call StartUp()
 
-nnoremap <silent> <C-p> :GFiles<CR>
+nnoremap <silent> <C-p> :Files<CR>
 nnoremap <silent> <C-f> :Ag<CR>
 
 " easymotion
