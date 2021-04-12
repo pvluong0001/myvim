@@ -30,3 +30,8 @@ nmap <C-d> Yp
 
 " no highlight search
 nnoremap <esc> :noh<return><esc>
+
+" save
+nnoremap <c-s> :w<CR>
+inoremap <c-s> <Esc>:w<CR>l
+vnoremap <c-s> <Esc>:w<CR>
