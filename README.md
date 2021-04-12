@@ -2,7 +2,7 @@
 
 ### search follow git. Add to .bash_profile
 ```shell
-rg --files --follow --no-ignore-vcs --hidden -g "!{node_modules/*,.git/*}"
+export FZF_DEFAULT_COMMAND='rg --files --follow --no-ignore-vcs --hidden -g "!{node_modules/*,.git/*,vendor/*}"'
 ```
 
 ### follow this to install plugin youcomplete me
