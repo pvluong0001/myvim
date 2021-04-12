@@ -28,6 +28,5 @@ Plug 'honza/vim-snippets'
 Plug 'Chiel92/vim-autoformat'
 
 " tab
-Plug 'ervandew/supertab'
 Plug 'yggdroot/indentline'
 call plug#end()

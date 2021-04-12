@@ -47,8 +47,8 @@ nmap <F8> :TagbarToggle<CR>
 nnoremap <leader>. :CtrlPTag<cr>
 
 " snippet
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsEditSplit="vertical"
+" let g:UltiSnipsExpandTrigger="<tab>"
+" let g:UltiSnipsEditSplit="vertical"
 
 " format
 noremap <F3> :Autoformat<CR>
