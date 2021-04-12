@@ -27,3 +27,6 @@ set listchars+=space:·,
 
 " duplicate
 nmap <C-d> Yp
+
+" no highlight search
+nnoremap <esc> :noh<return><esc>
